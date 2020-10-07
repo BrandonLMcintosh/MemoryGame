@@ -1,0 +1,96 @@
+#game div {
+  border: 1px solid black;
+  width: 16%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  flex-grow: 1;
+  transition: background-color 1s;
+}
+#game{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2% 10% 10% 10%;
+}
+
+#scores{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: Varela Round;
+  font-weight: 400px;
+}
+
+.score.current{
+  display: inline-block;
+}
+
+#game div{
+  border-radius: 10px;
+}
+
+#buttons{
+  position: relative;
+  margin: 0 auto;
+  width: 20%;
+  height: 120px;
+}
+
+.button.reset{
+  position: relative;
+  width: 100%;
+  height: 60px;
+  border-style: none;
+  background-color: #ff7675;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: -4px 4px #d63031;
+  font-family: Varela Round;
+  font-weight: bolder;
+  font-size: 50px;
+  margin: 3px auto;
+  outline: none;
+}
+
+.button.start{
+  position: relative;
+  width: 100%;
+  height: 60px;
+  border-style: none;
+  background-color: #55efc4;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: -4px 4px #00b894;
+  font-family: Varela Round;
+  font-weight: bolder;
+  font-size: 50px;
+  margin: 3px auto;
+  outline: none;
+}
+
+.button.start:hover{
+  right: 2px;
+  top: 2px;
+  box-shadow: -2px 2px #00b894;
+}
+.button.reset:hover{
+  right: 2px;
+  top: 2px;
+  box-shadow: -2px 2px #d63031;
+}
+
+.button.start:active{
+  box-shadow: -1px 1px #00b894;
+  right: 3px;
+  top: 3px;
+}
+.button.reset:active{
+  box-shadow: -1px 1px #d63031;
+  right: 3px;
+  top: 3px;
+}
