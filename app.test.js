@@ -1,3 +1,12 @@
+beforeAll(function(){
+    //update
+    //remove
+    //reset
+    //start
+    //shuffle
+    //createDivsForColors
+    //handleCardClick
+});
 //update scores
 describe('update tests', function(){
     it('should', function(){
@@ -39,4 +48,13 @@ describe('handleCardClick tests', function(){
     it('should', function(){
 
     });
+});
+afterAll(function(){
+    //update
+    //remove
+    //reset
+    //start
+    //shuffle
+    //createDivsForColors
+    //handleCardClick
 });
